@@ -1,6 +1,8 @@
 # Editor Extentions
  
-This package currently provides two functionalities and may be extended in the future. The two functionalities are as follows:
+This package currently provides two functionalities and may be extended in the future.
+
+You can simply download the single [package file](EditorExtensions.unitypackage) and drop it into your project to import everything you need without cloning the whole repository. 
 
 ## Enter Play Mode from Start Scene (PlayMainScene)
 By using the menu item (Play -> Play Main Scene) or the shortcut (shift + t) the editor changes into the Play Mode. Equivalent to a build version, the start scene of the project is loaded first. If the currently opened scene contains unsaved changes, you will be asked whether you want to save or discard them before entering Play Mode. When leaving the Play Mode, the scene from which the Play Mode was entered is loaded again.
